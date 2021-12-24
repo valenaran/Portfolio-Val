@@ -20,6 +20,10 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 64px;
 }
 body {
   font-family: var(--default-font-family);
@@ -28,6 +32,8 @@ p {
   color: #272142;
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background-color: #f9f7fe;
@@ -51,4 +57,34 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+branding-arti {
+  background-color: var(--brading-color);
+  border: 1px solid var(--brading-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
