@@ -37,6 +37,32 @@
     <title>Document</title>
   </head>
   <body>
+ <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt=""
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html"> About</a>
+          </li>
+          <li>
+            <a href="/work.html"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
       <div class="hero">
       <p> Hello, I am</p>     
       <h1>Val</h1>
@@ -62,13 +88,17 @@
           </div>
           </div>
        <div class="row mb-5">
-                <div class="col">
-                  <div class="project-description">
-         <h2 class="mb-5">Weather App</h2>
-      <p class="mb-4 text-muted">
+                 <div class="col d-none d-lg-block">
+                     <h2 class="mb-5">Weather App</h2>
+                         <p class="mb-4 text-muted">
        Never dress wrong when you have all the APIs to your disposicion to choose the right outfit accordirding to your citie's weather.
       </p>
-      <a href="#" class="btn btn-branding-arti">Learn more</a>
+       <a href="#" class="btn btn-branding-arti">Learn more</a>
+                </div>
+                 <div class="col">
+                  <div class="project-description">
+            <img src="images/WeatherApp.JPG" alt="">
+           </div>
               </div>
               </div>
               
