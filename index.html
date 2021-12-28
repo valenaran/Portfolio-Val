@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script
-      type="text/javascript"
-      src="https://codesandbox.io/public/sse-hooks/sse-hooks.f648b14c15c640a14a557113a991cb8d.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://codesandbox.io/static/js/banner.be879265d.js"
-    ></script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Val is a Front end developer based in Berlin"/>
+   <title>Val Portfolio</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/portfolio.css" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
@@ -27,99 +29,118 @@
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/portfolio.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
   </head>
   <body>
- <div class="container">
+    <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/">
           <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
           <img
             src="images/logo-small.jpg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Val logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Val"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Front End Projects"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Val contact"> Contact</a>
           </li>
         </ul>
       </nav>
     </div>
-      <div class="hero">
-      <p> Hello, I am</p>     
+    <div class="hero">
+      <p>👋 Hello, I am</p>
       <h1>Val</h1>
-      <h2 class="mb-5">Front-End Developer Based in Berlin</h2>
-      <a href="#" class="btn btn-branding">Contact Me</a>
+      <h2 class="mb-5">Front-end developer based in Berlin</h2>
+      <div>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
       </div>
-       <p class="text-center m-5">
-          featured projects where you can see what I can do
-      </p>
-      <div class="container">
-          <div class="row mb-5">
-              <div class="col d-none d-lg-block">
-                  <img src="images/Artichoke.JPG" class="img-fluid" alt="">
-              </div>
-              <div class="col">
-                  <div class="project-description">
-         <h2 class="mb-5">Arti the artichoke</h2>
-      <p class="mb-4 text-muted">
-          Arti is a pangolin who loves eating noodles. Go with Arti in an adventure of how and what type of noodles you can eat around the world.
-      </p>
-      <a href="#" class="btn btn-branding-arti">Learn more</a>
-              </div>
+    </div>
+    <p class="text-center m-5">
+      Featured Project which my best projects be choice to show
+    </p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img src="images/Artichoke.JPG" class="img-fluid" alt="" />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Artichoke the Pangolin</h2>
+            <p class="mb-5 text-muted">
+              Arti is a Pangolin who loves to eat noodles. Go with Arti in
+              adventure around the world looking for the perfect noodles.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
-          </div>
-       <div class="row mb-5">
-                 <div class="col d-none d-lg-block">
-                     <h2 class="mb-5">Weather App</h2>
-                         <p class="mb-4 text-muted">
-       Never dress wrong when you have all the APIs to your disposicion to choose the right outfit accordirding to your citie's weather.
-      </p>
-       <a href="#" class="btn btn-branding-arti">Learn more</a>
-                </div>
-                 <div class="col">
-                  <div class="project-description">
-            <img src="images/WeatherApp.JPG" alt="">
-           </div>
-              </div>
-              </div>
-              
-          </div>
-           <div class="row mb-5">
-              <div class="col d-none d-lg-block">
-                  <img src="images/Responsive.JPG" class="img-fluid" alt="">
-              </div>
-              <div class="col">
-                  <div class="project-description">
-         <h2 class="mb-5">Responsive Webs</h2>
-      <p class="mb-4 text-muted">
-         You can showcase all your products and services in any device you want. Just make it Repsonsive. 
-      </p>
-      <a href="#" class="btn btn-branding-arti">Learn more</a>
-              </div>
-          </div>
-          </div>
+        </div>
       </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+              Weather apps are here to stay with us. Never chose the wrong
+              outfit again.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img src="images/WeatherApp.JPG" class="img-fluid" alt="" />
+        </div>
       </div>
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img src="images/Responsive.JPG" class="img-fluid" alt="" />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Responsive</h2>
+            <p class="mb-5 text-muted">
+              I can make sure your website looks awesome in any device.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
+          </div>
+        </div>
       </div>
+    </div>
+     <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="" class="btn btn-branding mt-3"> Contact me </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:val@gmail.com" class="email-link">
+            val@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://github.com/valenaran/Portfolio-Val.gitl" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instragram.com/val" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com/val" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
